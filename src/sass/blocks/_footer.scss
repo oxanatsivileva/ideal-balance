@@ -1,0 +1,75 @@
+.footer {
+    background: #F4F1F1;
+    height: 260px;
+
+    &__inner {
+        display: flex;
+        .strips-wrapper {
+            gap: 14px;
+            margin-top: 5px;
+        }   
+    }
+    &__logo {
+        width: 283px;
+        margin-right: 43px;
+        margin-top: 33px;
+    }
+    &__wrapper {
+        padding-top: 52px;
+        display: flex;
+    }
+    &__nav {
+        margin-right: 136px;
+    }
+    &__title {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #272727;    
+    }
+    &__list {
+        margin-top: 19px;
+        li {
+            margin-bottom: 10px;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+        li a:hover {
+            color: $second-color;
+        }
+    }
+    &__contacts {
+        margin-right: 90px;
+        &-call {
+            cursor: pointer;
+            &:hover {
+                color: $second-color;
+            }
+        }
+        &-email {
+            text-decoration: underline;
+        }
+    }
+    &__social {
+        &-items {
+            margin-top: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            img {
+                width: 30px;
+            }
+            a:hover {
+                opacity: .7;
+            }
+       
+        }   
+    }
+
+    
+}
+
+
+

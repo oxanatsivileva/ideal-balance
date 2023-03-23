@@ -1,0 +1,73 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex: 0 0 auto;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: $main-color;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $main-color; 
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.strips-wrapper {
+    @include strips-wrapper;
+
+}
+.first-strip {
+    @include first-strip;
+}
+
+.second-strip {
+    @include second-strip;
+}
+
+.strong {
+    @include strong;
+
+}
+
+.first-short {
+    @include first-short;
+}
+
+.second-short {
+    @include second-short;
+}
+
+.open {
+    display: inline-block;
+}
+ 
+.close {
+    display: none;
+}

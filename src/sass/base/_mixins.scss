@@ -1,0 +1,38 @@
+@mixin first-strip {
+    width: 126px;
+    height: 8px;
+    background: $second-color;
+    border-radius: 30px;
+}
+
+@mixin second-strip {
+    width: 43px;
+    height: 8px;
+    background: $second-color;
+    border-radius: 30px;
+}
+
+@mixin strips-wrapper {
+    display: flex;
+    gap: 32px;
+    margin-top: 10px;
+}
+
+@mixin strong {
+    font-weight: 500;
+    color: $second-color;
+}
+
+@mixin first-short {
+    width: 56px;
+    height: 6px;
+}
+
+@mixin second-short {
+    width: 19px;
+    height: 6px;
+}
+
+
+
+
